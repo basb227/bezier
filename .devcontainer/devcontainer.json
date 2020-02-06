@@ -1,5 +1,5 @@
 {
-	"name": "C++",
+	"name": "Bezier",
 	"dockerFile": "Dockerfile",
 
 	"runArgs": [
@@ -23,6 +23,11 @@
 	// "postCreateCommand": "gcc -v",
 
 	"extensions": [
-		"ms-vscode.cpptools"
+		"ms-vscode.cpptools",
+		"dave-hagedorn.jenkins-runner",
+		"alefragnani.jenkins-status",
+		"twxs.cmake",
+		"ms-vscode.cmake-tools
+"
 	]
 }

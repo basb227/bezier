@@ -1,13 +1,9 @@
-#include <iostream>
+#include <cstdio>
 #include <string>
 
 using namespace std;
 
 int main() {
-    cout << "Hello World\n";
-    cout << "Input: ";
-    string data;
-    getline(cin, data);
-    cout << "Output: " << data << "\n\n";
+    printf("hello from linux_opcua!\n");
     return 0;
 }
